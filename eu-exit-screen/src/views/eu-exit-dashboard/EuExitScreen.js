@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { initAll } from 'govuk-frontend';
+import Navbar from '../../components/navbar/Navbar';
+import "govuk-frontend/all.scss";
 import './EuExitScreen.css';
 
 class EuExitScreen extends Component {
+  componentDidMount() {
+    initAll();
+  }
+
   render() {
     return (
       <div className="EuExitScreen">
-        <h1>EuExitScreen</h1>
+        <Navbar />
       </div>
     );
   }
