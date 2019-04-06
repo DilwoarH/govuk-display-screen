@@ -2,7 +2,7 @@
   "name": "eu-exit-screen",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "/eu-exit",
+  "homepage" : "/eu-exit/build",
   "dependencies": {
     "govuk-frontend": "^2.9.0",
     "node-sass": "^4.11.0",
